@@ -1,1 +1,146 @@
 /**index.wxss**/
+.container-home {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  padding-top: 40rpx;
+  position: relative;
+  margin: 0 auto;
+}
+
+.header-txt {
+  position: absolute;
+  left: 48rpx;
+  top: 108rpx;
+  font-size: 50rpx;
+  color: #192639;
+  font-weight: bold;
+}
+
+.header-progress {
+  display: flex;
+  align-items: baseline;
+  position: absolute;
+  left: 48rpx;
+  top: 222rpx;
+}
+
+.header-progress .progress-start {
+  font-weight: bold;
+  font-size: 50rpx;
+  color: #192639;
+}
+
+.header-progress .progress-gap {
+  margin-left: 28rpx;
+  margin-right: 12rpx;
+  font-size: 36rpx;
+  color: #8EA0D9;
+}
+
+.header-progress .progress-end {
+  font-size: 32rpx;
+  color: #8EA0D9;
+}
+
+.progress-box {
+  position: absolute;
+  left: 48rpx;
+  top: 302rpx;
+  width: 550rpx;
+}
+
+.header .header-img {
+  width: 668rpx;
+  height: 318rpx;
+}
+
+
+.page-btn {
+  margin: 40rpx auto 52rpx;
+  width: 668rpx;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  border-radius: 200rpx;
+  font-size: 32rpx;
+  color: #fff;
+  background: linear-gradient(100deg, #9083F5 22%, #9083F5 22%, #6F65EC 90%, #6F65EC 90%);
+}
+
+.page-title {
+  font-size: 40rpx;
+  font-weight: 500;
+  line-height: 48rpx;
+  color: #3D3D3D;
+  /* margin-left: 32rpx;
+  padding-bottom: 52rpx; */
+  padding: 0 36rpx 52rpx;
+}
+
+.page-basic {
+  display: flex;
+  padding: 0 36rpx;
+  justify-content: space-between;
+  font-size: 40rpx;
+}
+
+.page-basic .basic-box {
+  width: 236rpx;
+  height: 84rpx;
+  border-radius: 24rpx;
+  background: #FFF;
+  box-shadow: 0rpx 3rpx 50rpx 6rpx rgba(235, 235, 235, 0.72);
+  padding: 40rpx;
+}
+
+.page-basic .basic-box .box-content {
+  display: flex;
+}
+
+.box-content .content-left .content-title {
+  font-size: 28rpx;
+  color: #192639;
+}
+
+.box-content .content-left .content-sub-title {
+  font-size: 22rpx;
+  color: #7A7E9B;
+  padding-top: 16rpx;
+}
+
+.content-right {
+  width: 98rpx;
+  height: 98rpx;
+  margin-left: 24rpx;
+  /* border: 1px dashed #eee; */
+}
+
+.content-right .right-img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.page-class {
+  padding-top: 40rpx;
+}
+
+.content-course {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 36rpx 80rpx;
+}
+
+.content-course .course-item {
+  width: 192rpx;
+  height: 280rpx;
+  box-shadow: 0rpx 3rpx 50rpx 6rpx rgba(235, 235, 235, 0.72);
+}
+
+.course-item .item-img {
+  width: 192rpx;
+  height: 280rpx;
+  display: block;
+}

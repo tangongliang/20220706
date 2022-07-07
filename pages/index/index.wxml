@@ -1,4 +1,61 @@
 <!--index.wxml-->
-<view class="container">
-  falkjsfjaslkdfjfsdfds大声道ddadsddd
+<view class="container-home">
+  <view class="header">
+    <text class="header-txt">50音学习</text>
+    <view class="header-progress">
+      <view class="progress-start">1</view>
+      <view class="progress-gap">/</view>
+      <view class="progress-end">104个</view>
+    </view>
+    <view class="progress-box">
+      <progress percent="2" stroke-width="6" activeColor="#786DEE"/>
+    </view>
+    <image src="../../images/home/home-pg.png" class='header-img'></image>
+  </view>
+
+  <view class="page-btn">
+    <text>开始学习</text>
+  </view>
+
+  <view class="page-title">基础学习</view>
+
+  <view class="page-basic">
+    <view class="basic-box">
+      <view class="box-content">
+        <view class="content-left">
+          <view class="content-title">学习资料</view>
+          <view class="content-sub-title">人手一份</view>
+        </view>
+        <view class="content-right">
+          <image src="../../images/home/home-learn.png" class="right-img"></image>
+        </view>
+      </view>
+    </view>
+
+    <view class="basic-box">
+      <view class="box-content">
+        <view class="content-left">
+          <view class="content-title">入门知识</view>
+          <view class="content-sub-title">适合小白</view>
+        </view>
+        <view class="content-right">
+          <image src="../../images/home/home-rumen.png" class="right-img"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="page-title page-class">进阶课程</view>
+
+  <view class="content-course">
+    <view class="course-item">
+      <image src="../../images/home/home-n1.png" class="item-img"></image>
+    </view>
+    <view class="course-item">
+      <image src="../../images/home/home-n2.png" class="item-img"></image>
+    </view>
+    <view class="course-item">
+      <image src="../../images/home/home-n3.png" class="item-img"></image>
+    </view>
+  </view>
 </view>

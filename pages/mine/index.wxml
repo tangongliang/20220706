@@ -17,7 +17,7 @@
   </view>
 
   <view class="info-content">
-    <view class="info-item">
+    <view class="info-item" bindtap="handleEditInfo">
       <view class="item-left item-flex">
         <image src="../../images/mine/mine-version.png" class="left-img"></image>
         <view class="left-txt">编辑资料</view>

@@ -1,0 +1,31 @@
+/* pages/syllable/index.wxss */
+page{
+  height:100%;
+}
+.page-menu{
+  display: flex;
+  margin: 40rpx auto;
+  border-radius: 9px;
+  background: #EEEEEF;
+  padding: 6rpx;
+}
+
+.page-menu .menu-item {
+  color:#212B3D;
+  text-align: center;
+  width: 108rpx;
+  height: 24rpx;
+  line-height: 24rpx;
+  font-size: 24rpx;
+  border-right: 1px solid #D8D8D8;
+  padding: 16rpx 0;
+}
+
+.page-menu .no-border {
+  border-right: 0pc;
+}
+
+.page-menu .menu-active {
+  background: #fff;
+  border-radius: 12rpx;
+}

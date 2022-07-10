@@ -1,0 +1,42 @@
+/* pages/edit-info/index.wxss */
+.content-page .info-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 32rpx;
+}
+.content-page .info-avatar {
+  height: 140rpx;
+  line-height: 140rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-item .item-label {
+  font-size: 32rpx;
+  color: #212B3D;
+}
+
+.info-item .item-value {
+  display: flex;
+  align-items: center;
+}
+
+.info-item .value-img {
+  width: 100rpx;
+  height: 100rpx;
+  display: block;
+}
+
+.info-item .value-arrow {
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 36rpx;
+}
+
+.info-item .value-name {
+  color: #1C2638;
+}

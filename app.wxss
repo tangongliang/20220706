@@ -8,3 +8,10 @@
   /* padding: 200rpx 0; */
   box-sizing: border-box;
 } 
+
+.content-page {
+  display: flex;
+  flex-direction: column;
+  padding: 0 32rpx;
+  box-sizing: border-box;
+}

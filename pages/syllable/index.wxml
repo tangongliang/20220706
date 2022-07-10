@@ -1,0 +1,13 @@
+<!--pages/syllable/index.wxml-->
+<view class="content-page">
+  <view class="page-menu">
+    <view class="menu-item {{activeMenu == 'qingBox' ? 'menu-active' : ''}}" bindtap="toViewClick" data-hash="qingBox">
+      <view>清音</view>
+    </view>
+    <view class="menu-item {{activeMenu == 'zhuoBox' ? 'menu-active' : ''}}" bindtap="toViewClick" data-hash="zhuoBox">
+      浊音
+    </view>
+    <view class="menu-item no-border {{activeMenu == 'aoBox' ? 'menu-active' : ''}}" bindtap="toViewClick" data-hash="aoBox">拗音</view>
+  </view>
+</view>
+

@@ -76,7 +76,6 @@
 .info-item .item-left .left-img {
   width: 56rpx;
   height: 56rpx;
-  border: 1px dashed #eee;
 }
 
 .item-left .left-txt {

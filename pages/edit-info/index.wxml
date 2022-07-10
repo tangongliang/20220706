@@ -1,0 +1,18 @@
+<!--pages/edit-info/index.wxml-->
+<view class="content-page">
+  <view class="info-item info-avatar">
+    <view class="item-label">头像</view>
+    <view class="item-value">
+      <image class="value-img" src="../../images/home.png"></image>
+      <image class="value-arrow" src="../../images/mine/arrow.png"></image>
+    </view>
+  </view>
+
+  <view class="info-item">
+    <view class="item-label">昵称</view>
+    <view class="item-value">
+      <view class="value-name">11111</view>
+      <image class="value-arrow" src="../../images/mine/arrow.png"></image>
+    </view>
+  </view>
+</view>

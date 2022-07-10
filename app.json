@@ -1,26 +1,34 @@
 {
-    "pages": [
-        "pages/index/index",
-        "pages/mine/index"
-    ],
-    "window": {
-        "backgroundTextStyle": "light",
-        "navigationBarBackgroundColor": "#fff",
-        "navigationBarTitleText": "JP五十音图",
-        "navigationBarTextStyle": "black"
-    },
-    "tabBar": {
-      "list": [
-        {
-          "pagePath": "pages/index/index",
-          "text": "首页"
-        },
-        {
-          "pagePath": "pages/mine/index",
-          "text": "我的"
-        }
-      ]
-    },
-    "style": "v2",
-    "sitemapLocation": "sitemap.json"
+  "pages": [
+    "pages/index/index",
+    "pages/mine/index",
+    "pages/edit-info/index",
+    "pages/syllable/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "JP五十音图",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#AFB8CB",
+    "selectedColor": "#3D3D3D",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-selected.png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的",
+        "iconPath": "images/mine.png",
+        "selectedIconPath": "images/mine-selected.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
 }

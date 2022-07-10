@@ -1,1 +1,99 @@
 /* pages/mine/index.wxss */
+.content-page {
+  display: flex;
+  flex-direction: column;
+  padding: 0 32rpx;
+}
+
+.page-user-info {
+  display: flex;
+  align-items: center;
+}
+
+.page-user-info .info-left {
+  width: 140rpx;
+  height: 140rpx;
+}
+
+.page-user-info .info-right {
+  margin-left: 30rpx;
+}
+
+.info-right .right-title {
+  font-size: 36rpx;
+  font-weight: 600;
+  color: #1C2638;
+}
+
+.info-right .right-sub-title {
+  font-size: 24rpx;
+  color: #7A7E9A;
+  padding-top: 8rpx;
+}
+
+.right-box {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.info-right .right-name {
+  font-size: 36rpx;
+  font-weight: 600;
+  color: #1C2638;
+}
+
+.info-right .right-login {
+  width: 120rpx;
+  height: 52rpx;
+  line-height: 52rpx;
+  text-align: center;
+  color: #fff;
+  font-size: 20rpx;
+  border-radius: 200rpx;
+  /* icon渐变 */
+  background: linear-gradient(116deg, #9083F5 21%, #9083F5 21%, #6F65EC 91%, #6F65EC 91%);
+}
+
+
+.info-content {
+  margin-top: 40rpx;
+}
+
+.info-content .info-item {
+  height: 100rpx;
+  line-height: 100rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-item .item-flex {
+  display: flex;
+  align-items: center;
+}
+
+.info-item .item-left .left-img {
+  width: 56rpx;
+  height: 56rpx;
+  border: 1px dashed #eee;
+}
+
+.item-left .left-txt {
+  margin-left: 32rpx;
+  font-size: 30rpx;
+  font-weight: 600;
+  color: #9E9E9E;
+}
+
+.item-right .right-txt {
+  font-size: 26rpx;
+  font-weight: normal;
+  color: #C4C4C5;
+  margin-right: 50rpx;
+}
+
+.item-right .right-img {
+  width: 40rpx;
+  height: 40rpx;
+}

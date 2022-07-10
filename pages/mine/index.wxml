@@ -1,2 +1,53 @@
 <!--pages/mine/index.wxml-->
-<text>pages/mine/index.wxml</text>
+<view class="content-page">
+  <view class="page-user-info">
+    <view class="info-left">头像</view>
+    <view class="info-right">
+      <view class="right-title">点击立即登录</view>
+      <view class="right-sub-title">登录后体验更多功能</view>
+    </view>
+  </view>
+
+  <view class="page-user-info">
+    <view class="info-left">头像</view>
+    <view class="info-right right-box">
+      <view class="right-name">我叫王点点</view>
+      <view class="right-login">退出登录</view>
+    </view>
+  </view>
+
+  <view class="info-content">
+    <view class="info-item">
+      <view class="item-left item-flex">
+        <image src="../../images/mine/mine-version.png" class="left-img"></image>
+        <view class="left-txt">编辑资料</view>
+      </view>
+      <view class="item-right item-flex">
+<!--        <view class="right-txt">5.5.0</view>-->
+        <image src="../../images/mine/arrow.png" class="right-img"></image>
+      </view>
+    </view>
+
+    <view class="info-item">
+      <view class="item-left item-flex">
+        <image src="../../images/mine/mine-version.png" class="left-img"></image>
+        <view class="left-txt">版本详情</view>
+      </view>
+      <view class="item-right item-flex">
+        <view class="right-txt">5.5.0</view>
+        <image src="../../images/mine/arrow.png" class="right-img"></image>
+      </view>
+    </view>
+
+    <view class="info-item">
+      <view class="item-left item-flex">
+        <image src="../../images/mine/share.png" class="left-img"></image>
+        <view class="left-txt">分享给好友</view>
+      </view>
+      <view class="item-right item-flex">
+<!--        <view class="right-txt">5.5.0</view>-->
+        <image src="../../images/mine/arrow.png" class="right-img"></image>
+      </view>
+    </view>
+  </view>
+</view>

@@ -29,3 +29,31 @@ page{
   background: #fff;
   border-radius: 12rpx;
 }
+
+.scroll-box {
+  height: 100%;
+}
+.box-header {
+  text-align: center;
+  font-size: 48rpx;
+}
+.unit-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 100rpx;
+}
+.unit-wrapper .unit-box {
+  width: 20%;
+  border-bottom: 1px solid #F3F3F3;
+  padding: 16rpx 0;
+}
+
+.unit-box view {
+  line-height: 40rpx;
+  text-align: center;
+  font-size: 40rpx;
+  color: #212B3D;
+}
+.unit-box .box-third {
+  color: #9E9E9E;
+}

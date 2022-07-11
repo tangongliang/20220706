@@ -7,7 +7,21 @@ Page({
   data: {
     winHeight: '100%',
     toView: 'qingBox',
-    activeMenu: 'qingBox'
+    activeMenu: 'qingBox',
+
+    qingArr: [
+      {first: 'あ', second: 'ア', third: 'a'},
+      {first: 'あ', second: 'ア', third: 'a'},
+      {first: 'あ', second: 'ア', third: 'a'},
+      {first: 'あ', second: 'ア', third: 'a'},
+      {first: 'あ', second: 'ア', third: 'a'},
+      {first: 'あ', second: 'ア', third: 'a'},
+      {first: 'あ', second: 'ア', third: 'a'},
+      {first: 'あ', second: 'ア', third: 'a'},
+      {first: 'あ', second: 'ア', third: 'a'},
+      {first: 'あ', second: 'ア', third: 'a'},
+      {first: 'あ', second: 'ア', third: 'a'},
+    ]
   },
 
   /**

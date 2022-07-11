@@ -9,5 +9,38 @@
     </view>
     <view class="menu-item no-border {{activeMenu == 'aoBox' ? 'menu-active' : ''}}" bindtap="toViewClick" data-hash="aoBox">拗音</view>
   </view>
+
+  <scroll-view class="scroll-box" style="height:{{winHeight}}"  scroll-into-view="{{toView}}" scroll-y="true" scroll-with-animation="true">
+    <view id="qingBox">
+      <view class="box-header">清音</view>
+      <view class="unit-wrapper">
+        <view class="unit-box" wx:for="{{qingArr}}" wx:key="index">
+          <view class="box-first">{{item.first}}</view>
+          <view class="box-second">{{item.second}}</view>
+          <view class="box-third">{{item.third}}</view>
+        </view>
+      </view>
+    </view>
+    <view id="zhuoBox">
+      <view class="box-header">浊音</view>
+      <view class="unit-wrapper">
+        <view class="unit-box" wx:for="{{qingArr}}" wx:key="index">
+          <view class="box-first">{{item.first}}</view>
+          <view class="box-second">{{item.second}}</view>
+          <view class="box-third">{{item.third}}</view>
+        </view>
+      </view>
+    </view>
+    <view id="aoBox">
+      <view class="box-header">拗音</view>
+      <view class="unit-wrapper">
+        <view class="unit-box" wx:for="{{qingArr}}" wx:key="index">
+          <view class="box-first">{{item.first}}</view>
+          <view class="box-second">{{item.second}}</view>
+          <view class="box-third">{{item.third}}</view>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
 </view>
 

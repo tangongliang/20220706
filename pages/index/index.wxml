@@ -13,14 +13,14 @@
     <image src="../../images/home/home-pg.png" class='header-img'></image>
   </view>
 
-  <view class="page-btn">
+  <view class="page-btn" bindtap="toStudy">
     <text>开始学习</text>
   </view>
 
   <view class="page-title">基础学习</view>
 
   <view class="page-basic">
-    <view class="basic-box">
+    <view class="basic-box" bindtap="toMaterial">
       <view class="box-content">
         <view class="content-left">
           <view class="content-title">学习资料</view>

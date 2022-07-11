@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/mine/index",
     "pages/edit-info/index",
-    "pages/syllable/index"
+    "pages/syllable/index",
+    "pages/material/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

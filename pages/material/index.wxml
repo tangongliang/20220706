@@ -1,0 +1,35 @@
+<!--pages/material/index.wxml-->
+<view class="content-page">
+  <view class="page-list-box" wx:for="{{records}}" wx:key="index">
+    <!-- <image src="../../images/material/data-bg.png" class="img"></image> -->
+
+    <view class="box-content">
+      <view class="content-title">{{item.bookTitle}}</view>
+
+      <view class="content-look">
+        <text>{{item.look}} 浏览</text>
+        <text class="look-gap">|</text>
+        <text>{{item.get}} 领取</text>
+      </view>
+
+      <view class="content-intro">
+       <text wx:for="{{item.specialArr}}" wx:for-item="itemTxt" wx:key="indexTxt" wx:for-index="j">{{(j+1)+ '.' + itemTxt}}</text>
+      </view>
+
+      <view class="content-book">
+        <view class="book-item">
+          <view class="item-img">1111</view>
+          <view class="item-txt">{{item.bookName1}}</view>
+        </view>
+        <view class="book-item" style="margin-left: 26rpx;">
+          <view class="item-img">1111</view>
+          <view class="item-txt">{{item.bookName2}}</view>
+        </view>
+      </view>
+
+      <view class="content-btn">
+        立即领取
+      </view>
+    </view>
+  </view>
+</view>

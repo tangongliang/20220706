@@ -36,26 +36,29 @@ Page({
 
   handleLogin() {
     const that = this
-    wx.showLoading({ title: '登录中...' })
-    wx.login({
-      success (res) {
-        console.log('获取code====>', res.code)
-        if (res.code) {
-          wx.getUserInfo({
-            success: res => {
-              // console.log('打印这里授权====>', res)
-              // 可以将 res 发送给后台解码出 unionId
-              wx.showToast({
-                title: '登录成功',
-                success: () => {
-                  that.setData({
-                    userInfo: res.userInfo
-                  })
-                }
-              })
+    // wx.showLoading({ title: '登录中...' })
+
+    wx.getUserProfile({
+      desc: '获取用户头像', // 声明获取用户个人信息后的用途，后续会展示在弹窗中，请谨慎填写
+      success: (res) => {
+        console.log(res)
+        this.setData({
+          userInfo: res.userInfo,
+          hasUserInfo: true
+        }, () => {
+          console.log(1111)
+          wx.login({
+            success (res1) {
+              console.log('打印code=====>', res1)
+              if (res.code) {
+                wx.showToast({
+                  title: '登录成功',
+                  success: () => {}
+                })
+              }
             }
           })
-        }
+        })
       }
     })
   },

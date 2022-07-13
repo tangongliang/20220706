@@ -5,32 +5,35 @@ Page({
    * 页面的初始数据
    */
   data: {
-    records: [
-      {
-        bookTitle: '新标日语教材电子版本',
-        look: '3.8w',
-        get: '2.2k',
-        specialArr: ['带音频', '带视频', '配套学习'],
-        bookName1: '《教材初级》预览',
-        bookName2: '实用日语口语大全'
-      },
-
-      {
-        bookTitle: '好好说话发生的',
-        look: '2.8w',
-        get: '3.2k',
-        specialArr: ['带音频', '带视频', '配套学习'],
-        bookName1: '哈哈哈哈',
-        bookName2: '发斯蒂芬'
-      }
-    ]
+    records: []
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-
+    let _this = this;
+    wx.request({
+      url: 'https://api.chongyaedu.com:8443/api/dataInfo/list', //仅为示例，并非真实的接口地址
+      data: {},
+      method: 'GET',
+      header: {
+        'content-type': 'multipart/form-data',
+        'X-Access-Token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NTk1MjAzODgsInVzZXJuYW1lIjoiYWRtaW4ifQ._I2NsVQ0asChxOfCxlrWxTvY-qLgWcxmDszd-mEqNWc'
+      },
+      success(res) {
+        let data = res.data;
+        if (data.code === 0) {
+          _this.setData({
+            records: data.data
+          });
+          console.log(_this.data);
+        }
+      },
+      fail(err) {
+        console.log(err.data);
+      }
+    })
   },
 
   /**

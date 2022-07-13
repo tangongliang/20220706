@@ -58,13 +58,14 @@
 .item-img {
   width: 280rpx;
   height: 160rpx;
-  border: 1px solid gray;
+  border-radius: 20rpx;
 }
 
 .item-txt {
   font-size: 26rpx;
   color: #000000;
-  padding-top: 20rpx;
+  padding-top: 8rpx;
+  font-weight: 600;
 }
 
 .content-btn {

@@ -8,7 +8,7 @@
       <view class="progress-end">104个</view>
     </view>
     <view class="progress-box">
-      <progress percent="2" stroke-width="6" activeColor="#786DEE"/>
+      <progress percent="2" border-radius="5" stroke-width="6" activeColor="#786DEE"/>
     </view>
     <image src="../../images/home/home-pg.png" class='header-img'></image>
   </view>

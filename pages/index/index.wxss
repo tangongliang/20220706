@@ -137,6 +137,7 @@
   width: 192rpx;
   height: 280rpx;
   box-shadow: 0rpx 3rpx 50rpx 6rpx rgba(235, 235, 235, 0.72);
+  border-radius: 10rpx;
 }
 
 .course-item .item-img {

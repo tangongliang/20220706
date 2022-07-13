@@ -27,7 +27,6 @@ Page({
           _this.setData({
             records: data.data
           });
-          console.log(_this.data);
         }
       },
       fail(err) {

@@ -10,7 +10,7 @@
 
   <view class="page-user-info" wx:else="{{userInfo}}">
     <view class="info-left">
-      <image src="{{userInfo.avatarUrl}}" style="width: 100%; height: 100%; display: block;"></image>
+      <image src="{{userInfo.avatarUrl}}" style="width: 100%; height: 100%; display: block; border-radius: 50%;"></image>
     </view>
     <view class="info-right right-box">
       <view class="right-name">{{userInfo.nickName}}</view>
@@ -37,7 +37,6 @@
       </view>
       <view class="item-right item-flex">
         <view class="right-txt">5.5.0</view>
-        <image src="../../images/mine/arrow.png" class="right-img"></image>
       </view>
     </view>
 

@@ -4,7 +4,8 @@
     "pages/mine/index",
     "pages/edit-info/index",
     "pages/syllable/index",
-    "pages/material/index"
+    "pages/material/index",
+    "pages/introduction/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

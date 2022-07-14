@@ -1,3 +1,5 @@
+const { getMaterialInfo } = require("../../jssdk/business/material");
+
 // pages/material/index.js
 Page({
 
@@ -13,15 +15,8 @@ Page({
    */
   onLoad(options) {
     let _this = this;
-    wx.request({
-      url: 'https://api.chongyaedu.com:8443/api/dataInfo/list', //仅为示例，并非真实的接口地址
-      data: {},
-      method: 'GET',
-      header: {
-        'content-type': 'multipart/form-data',
-        'X-Access-Token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NTk1MjAzODgsInVzZXJuYW1lIjoiYWRtaW4ifQ._I2NsVQ0asChxOfCxlrWxTvY-qLgWcxmDszd-mEqNWc'
-      },
-      success(res) {
+    getMaterialInfo({
+      success: function (res) {
         let data = res.data;
         if (data.code === 0) {
           _this.setData({
@@ -29,7 +24,7 @@ Page({
           });
         }
       },
-      fail(err) {
+      fail: function (err) {
         console.log(err.data);
       }
     })

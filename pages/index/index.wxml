@@ -3,12 +3,12 @@
   <view class="header">
     <text class="header-txt">50音学习</text>
     <view class="header-progress">
-      <view class="progress-start">1</view>
+      <view class="progress-start">{{randomNumber}}</view>
       <view class="progress-gap">/</view>
       <view class="progress-end">104个</view>
     </view>
     <view class="progress-box">
-      <progress percent="2" border-radius="5" stroke-width="6" activeColor="#786DEE"/>
+      <progress percent="{{randomNumber}}" border-radius="5" stroke-width="6" activeColor="#786DEE"/>
     </view>
     <image src="../../images/home/home-pg.png" class='header-img'></image>
   </view>

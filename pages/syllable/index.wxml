@@ -15,29 +15,29 @@
       <view class="box-header">清音</view>
       <view class="unit-wrapper">
         <view class="unit-box" wx:for="{{qingArr}}" wx:key="index">
-          <view class="box-first">{{item.first}}</view>
-          <view class="box-second">{{item.second}}</view>
-          <view class="box-third">{{item.third}}</view>
+          <view class="box-first">{{item.hiragana}}</view>
+          <view class="box-second">{{item.katakana}}</view>
+          <view class="box-third">{{item.roman_tone}}</view>
         </view>
       </view>
     </view>
     <view id="zhuoBox">
       <view class="box-header">浊音</view>
       <view class="unit-wrapper">
-        <view class="unit-box" wx:for="{{qingArr}}" wx:key="index">
-          <view class="box-first">{{item.first}}</view>
-          <view class="box-second">{{item.second}}</view>
-          <view class="box-third">{{item.third}}</view>
+        <view class="unit-box" wx:for="{{zhuoArr}}" wx:key="index">
+          <view class="box-first">{{item.hiragana}}</view>
+          <view class="box-second">{{item.katakana}}</view>
+          <view class="box-third">{{item.roman_tone}}</view>
         </view>
       </view>
     </view>
     <view id="aoBox">
       <view class="box-header">拗音</view>
       <view class="unit-wrapper">
-        <view class="unit-box" wx:for="{{qingArr}}" wx:key="index">
-          <view class="box-first">{{item.first}}</view>
-          <view class="box-second">{{item.second}}</view>
-          <view class="box-third">{{item.third}}</view>
+        <view class="unit-box" wx:for="{{aoArr}}" wx:key="index">
+          <view class="box-first">{{item.hiragana}}</view>
+          <view class="box-second">{{item.katakana}}</view>
+          <view class="box-third">{{item.roman_tone}}</view>
         </view>
       </view>
     </view>

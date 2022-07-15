@@ -73,6 +73,12 @@
   align-items: center;
 }
 
+.info-content .share-btn {
+  width: 100%;
+  background: #fff;
+  padding: 0 !important;
+}
+
 .info-item .item-left .left-img {
   width: 56rpx;
   height: 56rpx;

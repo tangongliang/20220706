@@ -25,10 +25,10 @@ function get(url, data = {}) {
             method: 'GET',
             header: {
                 'content-type': 'multipart/form-data',
-                'X-Access-Token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NTk2MTM0NjksInVzZXJuYW1lIjoiYWRtaW4ifQ.S-gjiA1kNFfW-iNcVql2IjzVav2BCDwdtrF-izWrs28'
+                // 'X-Access-Token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NTk2MTM0NjksInVzZXJuYW1lIjoiYWRtaW4ifQ.S-gjiA1kNFfW-iNcVql2IjzVav2BCDwdtrF-izWrs28'
             },
             success: (res) => {
-                switch (res.statusCode) {
+                switch (res.data.code) {
                     case 401:
                         reject(res.data)
                         break
@@ -51,29 +51,29 @@ function get(url, data = {}) {
         })
     })
 }
-function post() {
+function post(url, data = {}) {
     return new Promise((resolve, reject) => {
         wx.request({
             url: `${API_SERVER}${url}`,
-            data: getParam(data),
+            data: JSON.stringify(getParam(data)),
             method: 'POSt',
             header: {
-                'content-type': 'multipart/form-data',
-                'X-Access-Token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NTk2MTM0NjksInVzZXJuYW1lIjoiYWRtaW4ifQ.S-gjiA1kNFfW-iNcVql2IjzVav2BCDwdtrF-izWrs28'
+                'content-type': 'application/json',
+                // 'X-Access-Token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NTk2MTM0NjksInVzZXJuYW1lIjoiYWRtaW4ifQ.S-gjiA1kNFfW-iNcVql2IjzVav2BCDwdtrF-izWrs28'
             },
             success: (res) => {
-                switch (res.statusCode) {
+                switch (res.data.code) {
                     case 401:
                         reject(res.data)
                         break
                     default:
                         const { data } = res
-                        if (data.code === 0) {
+                        if (data.code === 200) {
                             resolve(res.data)
                         } else {
                             reject({
-                                code: res.data.code,
-                                message: res.data.msg,
+                                code: data.code,
+                                message: data.msg,
                             })
                         }
                         break

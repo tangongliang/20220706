@@ -1,7 +1,7 @@
 <!--pages/material/index.wxml-->
 <view class="content-page">
   <view class="page-list-box" wx:for="{{records}}" wx:key="index">
-    <!-- <image src="../../images/material/data-bg.png" class="img"></image> -->
+     <image src="../../images/material/data-bg.png" class="img"></image>
 
     <view class="box-content">
       <view class="content-title">{{item.headline}}</view>

@@ -1,7 +1,9 @@
 <!--pages/mine/index.wxml-->
 <view class="content-page">
   <view class="page-user-info" bindtap="handleLogin" wx:if="{{!userInfo}}">
-    <view class="info-left">头像</view>
+    <view class="info-left">
+      <image src="../../images/mine/avatar.png" style="width: 100%; height: 100%;"></image>
+    </view>
     <view class="info-right">
       <view class="right-title">点击立即登录</view>
       <view class="right-sub-title">登录后体验更多功能</view>
@@ -40,15 +42,26 @@
       </view>
     </view>
 
-    <view class="info-item">
+    <button class="info-item share-btn" open-type="share">
       <view class="item-left item-flex">
         <image src="../../images/mine/share.png" class="left-img"></image>
         <view class="left-txt">分享给好友</view>
       </view>
       <view class="item-right item-flex">
-<!--        <view class="right-txt">5.5.0</view>-->
         <image src="../../images/mine/arrow.png" class="right-img"></image>
       </view>
-    </view>
+    </button>
+
+    <!-- <view class="info-item">
+      <button>
+        <view class="item-left item-flex">
+          <image src="../../images/mine/share.png" class="left-img"></image>
+          <view class="left-txt">分享给好友</view>
+        </view>
+        <view class="item-right item-flex">
+          <image src="../../images/mine/arrow.png" class="right-img"></image>
+        </view>
+      </button>
+    </view> -->
   </view>
 </view>

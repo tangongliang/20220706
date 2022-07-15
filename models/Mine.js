@@ -1,7 +1,7 @@
 const ModelUtil =  require('./ModelUtil')
 
 const API = [
-    {name: 'getList', type: 'get', url: '/h5/dataInfo/list'}
+  {name: 'login', type: 'post', url: '/wx/login'}
 ]
 
 module.exports = ModelUtil.generateAPI(API)

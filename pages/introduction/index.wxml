@@ -1,4 +1,4 @@
 <!--pages/introduction/index.wxml-->
 <view class="content-page">
-  <web-view src=""></web-view>
+  <web-view src="https://api.chongyaedu.com/h5/introduction.html"></web-view>
 </view>

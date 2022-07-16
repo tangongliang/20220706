@@ -5,7 +5,8 @@
     "pages/edit-info/index",
     "pages/syllable/index",
     "pages/material/index",
-    "pages/introduction/index"
+    "pages/introduction/index",
+    "pages/course/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

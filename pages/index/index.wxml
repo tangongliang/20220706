@@ -8,7 +8,7 @@
       <view class="progress-end">104个</view>
     </view>
     <view class="progress-box">
-      <progress percent="{{randomNumber}}" border-radius="5" stroke-width="6" activeColor="#786DEE"/>
+      <progress percent="{{randomNumber}}" border-radius="5" stroke-width="6" activeColor="#786DEE" />
     </view>
     <image src="../../images/home/home-pg.png" class='header-img'></image>
   </view>
@@ -48,13 +48,13 @@
   <view class="page-title page-class">进阶课程</view>
 
   <view class="content-course">
-    <view class="course-item">
+    <view class="course-item" bindtap="toCourse">
       <image src="../../images/home/home-n1.png" class="item-img"></image>
     </view>
-    <view class="course-item">
+    <view class="course-item" bindtap="toCourse">
       <image src="../../images/home/home-n2.png" class="item-img"></image>
     </view>
-    <view class="course-item">
+    <view class="course-item" bindtap="toCourse">
       <image src="../../images/home/home-n3.png" class="item-img"></image>
     </view>
   </view>

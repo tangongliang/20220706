@@ -1,0 +1,4 @@
+<!--pages/course/index.wxml-->
+<view class="content-page">
+  <web-view src="https://api.chongyaedu.com/h5/course.html"></web-view>
+</view>

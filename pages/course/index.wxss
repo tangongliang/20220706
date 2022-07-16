@@ -1,0 +1,84 @@
+/* pages/material/index.wxss */
+.page-list-box {
+  position: relative;
+  width: 668rpx;
+  height: 426rpx;
+  margin: 40rpx auto 0;
+  border: 1px solid red;
+  background: #D4E3FA;
+}
+
+.page-list-box .img {
+  width: 100%;
+  height: 426rpx;
+  display: block;
+}
+.box-content {
+  padding: 40rpx 30rpx 20rpx;
+}
+
+.content-title {
+  font-size: 36rpx;
+  font-weight: 600;
+  line-height: 34rpx;
+  color: #101113;
+}
+
+.content-look {
+  line-height: 36rpx;
+  padding: 20rpx 0;
+  font-size: 26rpx;
+  color: #101113;
+}
+
+.look-gap {
+  padding: 0 16rpx;
+}
+
+.content-intro {
+  font-size: 22rpx;
+  color: #494949;
+}
+
+.content-intro text {
+  padding-right: 16rpx;
+}
+
+.content-book {
+  margin-top: 20rpx;
+  display: flex;
+  padding-bottom: 20rpx;
+}
+
+.book-item {
+  width: 280rpx;
+  height: 210rpx;
+}
+
+.item-img {
+  width: 280rpx;
+  height: 160rpx;
+  border: 1px solid gray;
+}
+
+.item-txt {
+  font-size: 26rpx;
+  color: #000000;
+  padding-top: 20rpx;
+}
+
+.content-btn {
+  position: absolute;
+  top: 40rpx;
+  right: 26rpx;
+  width: 144rpx;
+  height: 56rpx;
+  line-height: 56rpx;
+  text-align: center;
+  border-radius: 60rpx;
+  font-size: 26rpx;
+  color: #fff;
+
+  /* icon渐变 */
+  background: linear-gradient(114deg, #9083F5 21%, #9083F5 21%, #6F65EC 91%, #6F65EC 91%);
+}

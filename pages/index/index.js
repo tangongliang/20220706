@@ -6,7 +6,7 @@ Page({
 
   onLoad() {
     this.setData({
-      randomNumber: Math.floor(Math.random()*104+1) 
+      randomNumber: Math.floor(Math.random() * 104 + 1)
     })
   },
 
@@ -32,6 +32,13 @@ Page({
   toIntroduction() {
     wx.navigateTo({
       url: '/pages/introduction/index'
+    })
+  },
+
+  // 去入门知识
+  toCourse() {
+    wx.navigateTo({
+      url: '/pages/course/index'
     })
   }
 })

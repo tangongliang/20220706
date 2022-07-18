@@ -6,7 +6,8 @@
     "pages/syllable/index",
     "pages/material/index",
     "pages/introduction/index",
-    "pages/course/index"
+    "pages/course/index",
+    "pages/thirdPage/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,0 +1,4 @@
+<!--pages/thirdPage/index.wxml-->
+<view class="content-page">
+  <image :src="{{pageData.pictureaddress}}"></image>
+</view>

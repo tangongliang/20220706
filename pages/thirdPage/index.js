@@ -12,8 +12,8 @@ Page({
   onLoad(options) {
     console.log(options)
     ThirdPage.getUserCard({
-      equipmentNo: '123456789',
-      source: '小米'
+      equipmentNo: options.equipmentNo,
+      source: options.source
     })
       .then(res => {
         console.log('res===>', res)

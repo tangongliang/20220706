@@ -108,7 +108,8 @@ Page({
     return {
         title: 'JP五十音图',
         desc: 'JP五十音图',
-        path: '/pages/index/index' // 路径，传递参数到指定页面。
+        path: '/pages/index/index', // 路径，传递参数到指定页面。
+        imageUrl: '../../images/cover.png'
     }
   }
   

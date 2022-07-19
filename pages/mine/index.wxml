@@ -51,17 +51,5 @@
         <image src="../../images/mine/arrow.png" class="right-img"></image>
       </view>
     </button>
-
-    <!-- <view class="info-item">
-      <button>
-        <view class="item-left item-flex">
-          <image src="../../images/mine/share.png" class="left-img"></image>
-          <view class="left-txt">分享给好友</view>
-        </view>
-        <view class="item-right item-flex">
-          <image src="../../images/mine/arrow.png" class="right-img"></image>
-        </view>
-      </button>
-    </view> -->
   </view>
 </view>

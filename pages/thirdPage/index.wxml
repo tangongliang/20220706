@@ -1,6 +1,6 @@
 <!--pages/thirdPage/index.wxml-->
 <view class="content-page">
   <view wx:if="{{pageData.businesscard}}" class="page-box">
-    <image src="{{pageData.businesscard}}" class="img"></image>
+    <image src="{{pageData.businesscard}}" class="img" show-menu-by-longpress="true"></image>
   </view>
 </view>

@@ -11,14 +11,13 @@ Page({
 
   onLoad(options) {
     console.log(options)
+    const that = this
     ThirdPage.getUserCard({
-      equipmentNo: options.equipmentNo,
-      source: options.source
+      equipmentNo: options.equipmentNo || Math.floor(Math.random() * 100000 + 1),
+      source: options.source || '小米'
     })
       .then(res => {
-        console.log('res===>', res)
-        // res.data.businessCard
-        this.setData({
+        that.setData({
           pageData: res.data.businessCard
         })
       })

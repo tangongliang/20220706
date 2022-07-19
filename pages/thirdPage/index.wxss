@@ -1,1 +1,8 @@
 /* pages/thirdPage/index.wxss */
+
+.img {
+  width: 100%;
+  min-height: 1334rpx;
+  max-height: 4000rpx;
+  display: block;
+}

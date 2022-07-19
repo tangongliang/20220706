@@ -1,4 +1,6 @@
 <!--pages/thirdPage/index.wxml-->
 <view class="content-page">
-  <image :src="{{pageData.pictureaddress}}"></image>
+  <view wx:if="{{pageData.businesscard}}" class="page-box">
+    <image src="{{pageData.businesscard}}" class="img"></image>
+  </view>
 </view>

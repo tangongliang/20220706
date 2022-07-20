@@ -78,9 +78,9 @@ Page({
       },
       {
         "pronunciation_properties":"清音",
-        "hiragana":"シ",
+        "hiragana":"し",
         "katakana":"シ",
-        "roman_tone":"shi"
+        "roman_tone":"si"
       },
       {
         "pronunciation_properties":"清音",
@@ -150,7 +150,7 @@ Page({
       },
       {
         "pronunciation_properties":"清音",
-        "hiragana":"れ",
+        "hiragana":"ね",
         "katakana":"ネ",
         "roman_tone":"ne"
       },
@@ -176,7 +176,7 @@ Page({
         "pronunciation_properties":"清音",
         "hiragana":"ふ",
         "katakana":"フ",
-        "roman_tone":"fu"
+        "roman_tone":"hu" 
       },
       {
         "pronunciation_properties":"清音",
@@ -228,9 +228,21 @@ Page({
       },
       {
         "pronunciation_properties":"清音",
+        "hiragana":"",
+        "katakana":"",
+        "roman_tone":""
+      },
+      {
+        "pronunciation_properties":"清音",
         "hiragana":"ゆ",
         "katakana":"ユ",
         "roman_tone":"yu"
+      },
+      {
+        "pronunciation_properties":"清音",
+        "hiragana":"",
+        "katakana":"",
+        "roman_tone":""
       },
       {
         "pronunciation_properties":"清音",
@@ -276,6 +288,24 @@ Page({
       },
       {
         "pronunciation_properties":"清音",
+        "hiragana":"",
+        "katakana":"",
+        "roman_tone":""
+      },
+      {
+        "pronunciation_properties":"清音",
+        "hiragana":"",
+        "katakana":"",
+        "roman_tone":""
+      },
+      {
+        "pronunciation_properties":"清音",
+        "hiragana":"",
+        "katakana":"",
+        "roman_tone":""
+      }, 
+      {
+        "pronunciation_properties":"清音",
         "hiragana":"を",
         "katakana":"ヲ",
         "roman_tone":"wo"
@@ -304,7 +334,7 @@ Page({
       {
         "pronunciation_properties":"浊音",
         "hiragana":"ぐ",
-        "katakana":"ぐ",
+        "katakana":"グ",
         "roman_tone":"gu"
       },
       {
@@ -329,7 +359,7 @@ Page({
         "pronunciation_properties":"浊音",
         "hiragana":"じ",
         "katakana":"ジ",
-        "roman_tone":"ji"
+        "roman_tone":"zi"
       },
       {
         "pronunciation_properties":"浊音",
@@ -359,13 +389,13 @@ Page({
         "pronunciation_properties":"浊音",
         "hiragana":"ぢ",
         "katakana":"ヂ",
-        "roman_tone":"ji（di）"
+        "roman_tone":"di"
       },
       {
         "pronunciation_properties":"浊音",
         "hiragana":"づ",
         "katakana":"ヅ",
-        "roman_tone":"zu（du）"
+        "roman_tone":"du" 
       },
       {
         "pronunciation_properties":"浊音",
@@ -450,9 +480,21 @@ Page({
       },
       {
         "pronunciation_properties":"拗音",
+        "hiragana":"",
+        "katakana":"",
+        "roman_tone":""
+      },
+      {
+        "pronunciation_properties":"拗音",
         "hiragana":"きゅ",
         "katakana":"キュ",
         "roman_tone":"kyu"
+      },
+      {
+        "pronunciation_properties":"拗音",
+        "hiragana":"",
+        "katakana":"",
+        "roman_tone":""
       },
       {
         "pronunciation_properties":"拗音",
@@ -462,33 +504,27 @@ Page({
       },
       {
         "pronunciation_properties":"拗音",
-        "hiragana":"ぎゃ",
-        "katakana":"ギャ",
-        "roman_tone":"gya"
-      },
-      {
-        "pronunciation_properties":"拗音",
-        "hiragana":"ぎゅ",
-        "katakana":"ぎゅ",
-        "roman_tone":"gyu"
-      },
-      {
-        "pronunciation_properties":"拗音",
-        "hiragana":"ぎょ",
-        "katakana":"ギョ",
-        "roman_tone":null
-      },
-      {
-        "pronunciation_properties":"拗音",
         "hiragana":"しゃ",
         "katakana":"シャ",
         "roman_tone":"sha"
       },
       {
         "pronunciation_properties":"拗音",
+        "hiragana":"",
+        "katakana":"",
+        "roman_tone":""
+      },
+      {
+        "pronunciation_properties":"拗音",
         "hiragana":"しゅ",
         "katakana":"シュ",
-        "roman_tone":null
+        "roman_tone":"shu"
+      },
+      {
+        "pronunciation_properties":"拗音",
+        "hiragana":"",
+        "katakana":"",
+        "roman_tone":""
       },
       {
         "pronunciation_properties":"拗音",
@@ -498,33 +534,27 @@ Page({
       },
       {
         "pronunciation_properties":"拗音",
-        "hiragana":"じゃ",
-        "katakana":"ジャ",
-        "roman_tone":"ja"
-      },
-      {
-        "pronunciation_properties":"拗音",
-        "hiragana":"じゅ",
-        "katakana":"ジュ",
-        "roman_tone":"ju"
-      },
-      {
-        "pronunciation_properties":"拗音",
-        "hiragana":"じょ",
-        "katakana":"ジョ",
-        "roman_tone":"jo"
-      },
-      {
-        "pronunciation_properties":"拗音",
         "hiragana":"ちゃ",
         "katakana":"チャ",
         "roman_tone":"cha"
       },
       {
         "pronunciation_properties":"拗音",
+        "hiragana":"",
+        "katakana":"",
+        "roman_tone":""
+      },
+      {
+        "pronunciation_properties":"拗音",
         "hiragana":"ちゅ",
         "katakana":"チュ",
         "roman_tone":"chu"
+      },
+      {
+        "pronunciation_properties":"拗音",
+        "hiragana":"",
+        "katakana":"",
+        "roman_tone":""
       },
       {
         "pronunciation_properties":"拗音",
@@ -540,9 +570,21 @@ Page({
       },
       {
         "pronunciation_properties":"拗音",
+        "hiragana":"",
+        "katakana":"",
+        "roman_tone":""
+      },
+      {
+        "pronunciation_properties":"拗音",
         "hiragana":"にゅ",
         "katakana":"ニュ",
         "roman_tone":"nyu"
+      },
+      {
+        "pronunciation_properties":"拗音",
+        "hiragana":"",
+        "katakana":"",
+        "roman_tone":""
       },
       {
         "pronunciation_properties":"拗音",
@@ -552,9 +594,15 @@ Page({
       },
       {
         "pronunciation_properties":"拗音",
-        "hiragana":"ひゃ",
+        "hiragana":"ひゃ ",
         "katakana":"ヒャ",
         "roman_tone":"hya"
+      },
+      {
+        "pronunciation_properties":"拗音",
+        "hiragana":"",
+        "katakana":"",
+        "roman_tone":""
       },
       {
         "pronunciation_properties":"拗音",
@@ -564,57 +612,39 @@ Page({
       },
       {
         "pronunciation_properties":"拗音",
+        "hiragana":"",
+        "katakana":"",
+        "roman_tone":""
+      },
+      {
+        "pronunciation_properties":"拗音",
         "hiragana":"ひょ",
         "katakana":"ヒョ",
         "roman_tone":"hyo"
       },
       {
         "pronunciation_properties":"拗音",
-        "hiragana":"びゃ",
-        "katakana":"ビャ",
-        "roman_tone":"bya"
-      },
-      {
-        "pronunciation_properties":"拗音",
-        "hiragana":"びゅ",
-        "katakana":"ビュ",
-        "roman_tone":"byu"
-      },
-      {
-        "pronunciation_properties":"拗音",
-        "hiragana":"びょ",
-        "katakana":"ビョ",
-        "roman_tone":"byo"
-      },
-      {
-        "pronunciation_properties":"拗音",
-        "hiragana":"ぴゃ",
-        "katakana":"ピャ",
-        "roman_tone":"pya"
-      },
-      {
-        "pronunciation_properties":"拗音",
-        "hiragana":"ぴゅ",
-        "katakana":"ピュ",
-        "roman_tone":"pyu"
-      },
-      {
-        "pronunciation_properties":"拗音",
-        "hiragana":"ぴょ",
-        "katakana":"ピョ",
-        "roman_tone":"pyo"
-      },
-      {
-        "pronunciation_properties":"拗音",
         "hiragana":"みゃ",
-        "katakana":"みゃ",
+        "katakana":"ミャ",
         "roman_tone":"mya"
+      },
+      {
+        "pronunciation_properties":"拗音",
+        "hiragana":"",
+        "katakana":"",
+        "roman_tone":""
       },
       {
         "pronunciation_properties":"拗音",
         "hiragana":"みゅ",
         "katakana":"ミュ",
         "roman_tone":"myu"
+      },
+      {
+        "pronunciation_properties":"拗音",
+        "hiragana":"",
+        "katakana":"",
+        "roman_tone":""
       },
       {
         "pronunciation_properties":"拗音",
@@ -630,16 +660,151 @@ Page({
       },
       {
         "pronunciation_properties":"拗音",
+        "hiragana":"",
+        "katakana":"",
+        "roman_tone":""
+      },
+      {
+        "pronunciation_properties":"拗音",
         "hiragana":"りゅ",
         "katakana":"リュ",
         "roman_tone":"ryu"
       },
       {
         "pronunciation_properties":"拗音",
+        "hiragana":"",
+        "katakana":"",
+        "roman_tone":""
+      },
+      {
+        "pronunciation_properties":"拗音",
         "hiragana":"りょ",
         "katakana":"リョ",
         "roman_tone":"ryo"
-      }
+      },
+      {
+        "pronunciation_properties":"拗音",
+        "hiragana":"ぴゃ",
+        "katakana":"ピャ",
+        "roman_tone":"pya"
+      },
+      {
+        "pronunciation_properties":"拗音",
+        "hiragana":"",
+        "katakana":"",
+        "roman_tone":""
+      },
+      {
+        "pronunciation_properties":"拗音",
+        "hiragana":"ぴゅ",
+        "katakana":"ピュ",
+        "roman_tone":"pyu"
+      },
+      {
+        "pronunciation_properties":"拗音",
+        "hiragana":"",
+        "katakana":"",
+        "roman_tone":""
+      },
+      {
+        "pronunciation_properties":"拗音",
+        "hiragana":"ぴょ",
+        "katakana":"ピョ",
+        "roman_tone":"pyo"
+      },
+      {
+        "pronunciation_properties":"拗音",
+        "hiragana":"ぎゃ",
+        "katakana":"ギャ",
+        "roman_tone":"gya"
+      },
+      {
+        "pronunciation_properties":"拗音",
+        "hiragana":"",
+        "katakana":"",
+        "roman_tone":""
+      },
+      {
+        "pronunciation_properties":"拗音",
+        "hiragana":"ぎゅ",
+        "katakana":"ギュ",
+        "roman_tone":"gyu"
+      },
+      {
+        "pronunciation_properties":"拗音",
+        "hiragana":"",
+        "katakana":"",
+        "roman_tone":""
+      },
+      {
+        "pronunciation_properties":"拗音",
+        "hiragana":"ぎょ",
+        "katakana":"ギョ",
+        "roman_tone":"gyo"
+      },
+      {
+        "pronunciation_properties":"拗音",
+        "hiragana":"じゃ",
+        "katakana":"ジャ",
+        "roman_tone":"ja"
+      },
+      {
+        "pronunciation_properties":"拗音",
+        "hiragana":"",
+        "katakana":"",
+        "roman_tone":""
+      },
+      {
+        "pronunciation_properties":"拗音",
+        "hiragana":"じゅ",
+        "katakana":"ジュ",
+        "roman_tone":"ju"
+      },
+      {
+        "pronunciation_properties":"拗音",
+        "hiragana":"",
+        "katakana":"",
+        "roman_tone":""
+      },
+      {
+        "pronunciation_properties":"拗音",
+        "hiragana":"じょ",
+        "katakana":"ジョ",
+        "roman_tone":"jo"
+      },
+      {
+        "pronunciation_properties":"拗音",
+        "hiragana":"びゃ",
+        "katakana":"ビャ",
+        "roman_tone":"bya"
+      },
+      {
+        "pronunciation_properties":"拗音",
+        "hiragana":"",
+        "katakana":"",
+        "roman_tone":""
+      },
+      {
+        "pronunciation_properties":"拗音",
+        "hiragana":"びゅ",
+        "katakana":"ビュ",
+        "roman_tone":"byu"
+      },
+      {
+        "pronunciation_properties":"拗音",
+        "hiragana":"",
+        "katakana":"",
+        "roman_tone":""
+      },
+      {
+        "pronunciation_properties":"拗音",
+        "hiragana":"びょ",
+        "katakana":"ビョ",
+        "roman_tone":"byo"
+      },
+      
+     
+      
     ]
   },
 

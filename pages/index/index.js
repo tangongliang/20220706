@@ -38,8 +38,8 @@ Page({
   // 去入门知识
   toCourse() {
     wx.navigateTo({
-      // url: '/pages/course/index'
-      url: '/pages/thirdPage/index'
+      url: '/pages/course/index'
+      // url: '/pages/thirdPage/index'
     })
   }
 })

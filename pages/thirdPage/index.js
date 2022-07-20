@@ -13,8 +13,8 @@ Page({
     console.log(options)
     const that = this
     ThirdPage.getUserCard({
-      equipmentNo: options.equipmentNo || Math.floor(Math.random() * 100000 + 1),
-      source: options.source || '小米'
+      equipmentNo: options.equipmentNo,
+      source: options.source
     })
       .then(res => {
         that.setData({

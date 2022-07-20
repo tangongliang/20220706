@@ -43,6 +43,7 @@ Page({
       desc: '获取用户头像', // 声明获取用户个人信息后的用途，后续会展示在弹窗中，请谨慎填写
       success: (res) => {
         if (res.userInfo) {
+          console.log('ressss====>', res)
           wx.login({
             success (res1) {
               console.log('打印res1=====>', res1)
@@ -53,14 +54,19 @@ Page({
               Mine.login({
                 code: code
               }).then(res2 => {
-                // console.log('登陆接口====>', res2)
-                that.setData({
-                  userInfo: res.userInfo,
-                  hasUserInfo: true
-                }, () => {
-                  wx.showToast({
-                    title: '登录成功',
-                    success: () => {}
+                console.log('登陆接口====>', res2)
+                Mine.syncInfo({
+                  ...res.userInfo
+                }).then(res3 => {
+                  console.log('res3333===>', res3)
+                  that.setData({
+                    userInfo: res.userInfo,
+                    hasUserInfo: true
+                  }, () => {
+                    wx.showToast({
+                      title: '登录成功',
+                      success: () => {}
+                    })
                   })
                 })
               })

@@ -56,7 +56,8 @@ Page({
               }).then(res2 => {
                 console.log('登陆接口====>', res2)
                 Mine.syncInfo({
-                  ...res.userInfo
+                  ...res.userInfo,
+                  openid: res2.data.openid
                 }).then(res3 => {
                   console.log('res3333===>', res3)
                   that.setData({

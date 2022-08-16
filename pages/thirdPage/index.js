@@ -14,7 +14,8 @@ Page({
     const that = this
     ThirdPage.getUserCard({
       equipmentNo: options.equipmentNo,
-      source: options.source
+      source: options.source,
+      userId: options.userId
     })
       .then(res => {
         that.setData({

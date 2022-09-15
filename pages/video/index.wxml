@@ -1,0 +1,4 @@
+<!--pages/video/index.wxml-->
+<view class="content-page">
+  <video src="{{videoUrl}}" show-center-play-btn='{{false}}' show-play-btn="{{true}}" controls></video>
+</view>

@@ -6,3 +6,16 @@
   max-height: 4000rpx; */
   display: block;
 }
+
+.home-btn{
+  position: fixed;
+  bottom: 80rpx;
+  width: 40%;
+  left: 30%;
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 24rpx;
+  line-height: 46rpx;
+  border-radius: 40rpx;
+}

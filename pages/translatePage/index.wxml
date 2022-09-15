@@ -1,0 +1,12 @@
+<!--pages/translatePage/index.wxml-->
+<view class="content-page">
+  <view class="text-box">
+    <textarea value="{{chinese}}" bindinput='_chinese' placeholder="输入翻译的文字" name="" id="" cols="30" rows="10"></textarea>
+    <button class="translate-btn" bindtap="translate">开始翻译</button>
+  </view>
+
+  <view class="result-title">翻译结果</view>
+  <view class="text-box">
+    {{japanese}}
+  </view>
+</view>

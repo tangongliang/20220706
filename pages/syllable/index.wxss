@@ -1,8 +1,68 @@
 /* pages/syllable/index.wxss */
-page{
-  height:100%;
+page {
+  height: 100%;
 }
-.page-menu{
+
+.page-alert-bg {
+  z-index: 99;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  opacity: 0.5;
+  background: #000000;
+}
+
+.alert-card {
+  z-index: 999;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin: -300rpx 0 0 -300rpx;
+  width: 600rpx;
+  height: 600rpx;
+  border-radius: 30px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px 0px rgba(132, 132, 132, 0.3);
+}
+
+.card-row-box {
+  height: 126rpx;
+  display: flex;
+  text-align: center;
+  margin-top: 40rpx;
+}
+
+.voice_play {
+  position: absolute;
+  left: 60%;
+  top: 40rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.card-column-box {
+  flex: 1;
+}
+
+.card-column-title {
+  font-size: 30rpx;
+  font-weight: normal;
+  letter-spacing: 0em;
+  color: #AAAAAA;
+}
+
+.card-column-content {
+  font-size: 80rpx;
+  font-weight: normal;
+  letter-spacing: 0em;
+
+  /* 主文字颜色 */
+  color: #212B3D;
+}
+
+.page-menu {
   display: flex;
   margin: 40rpx auto;
   border-radius: 9px;
@@ -11,7 +71,7 @@ page{
 }
 
 .page-menu .menu-item {
-  color:#212B3D;
+  color: #212B3D;
   text-align: center;
   width: 108rpx;
   height: 24rpx;
@@ -33,15 +93,18 @@ page{
 .scroll-box {
   height: 100%;
 }
+
 .box-header {
   text-align: center;
   font-size: 48rpx;
 }
+
 .unit-wrapper {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 100rpx;
 }
+
 .unit-wrapper .unit-box {
   width: 20%;
   border-bottom: 1px solid #F3F3F3;
@@ -54,6 +117,7 @@ page{
   font-size: 40rpx;
   color: #212B3D;
 }
+
 .unit-box .box-third {
   color: #9E9E9E;
 }

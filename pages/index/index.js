@@ -28,6 +28,20 @@ Page({
     })
   },
 
+  // 常用词汇
+  toVocabulary() {
+    wx.navigateTo({
+      url: '/pages/vocabulary/index'
+    })
+  },
+
+  // 日语翻译
+  toTranslate() {
+    wx.navigateTo({
+      url: '/pages/translatePage/index'
+    })
+  },
+
   // 去入门知识
   toIntroduction() {
     wx.navigateTo({

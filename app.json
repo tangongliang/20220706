@@ -2,9 +2,14 @@
   "pages": [
     "pages/index/index",
     "pages/mine/index",
+    "pages/find/index",
+    "pages/video/index",
     "pages/edit-info/index",
     "pages/syllable/index",
     "pages/material/index",
+    "pages/vocabulary/index",
+    "pages/branchTag/index",
+    "pages/translatePage/index",
     "pages/introduction/index",
     "pages/course/index",
     "pages/thirdPage/index"
@@ -24,6 +29,12 @@
         "text": "首页",
         "iconPath": "images/home.png",
         "selectedIconPath": "images/home-selected.png"
+      },
+      {
+        "pagePath": "pages/find/index",
+        "text": "发现",
+        "iconPath": "images/find.png",
+        "selectedIconPath": "images/find-selected.png"
       },
       {
         "pagePath": "pages/mine/index",

@@ -27,9 +27,9 @@
         </view>
       </view>
 
-      <view class="content-btn">
+      <button class="content-btn" size="mini" open-type="contact">
         立即领取
-      </view>
+      </button>
     </view>
   </view>
 </view>

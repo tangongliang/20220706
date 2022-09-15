@@ -1,0 +1,19 @@
+<view class="content-page">
+  <view class="page-list-box" wx:for="{{records}}" wx:key="mainId">
+    <view class="box-content">
+      <view class="content-title">{{item.mainTagName}}</view>
+      <view class="content-list">
+        <view class="content-list-box" wx:for="{{item.branchTagName}}" wx:for-item="branchTagName" wx:key="branchId">
+          <view bindtap="toBranchTag" data-branchName="{{branchTagName.branchName}}" data-branchId="{{branchTagName.branchId}}">
+            <image class="content-list-img" src="{{branchTagName.img}}"></image>
+            <view class="content-list-text">{{branchTagName.branchName}}</view>
+            <view class="progress-box">
+              <progress class="progress-percent" percent="{{(branchTagName.alreadyNum/branchTagName.allNum) * 100}}" border-radius="5" stroke-width="6" activeColor="#37D28D" backgroundColor="#9AEDC8" />
+              <view class="progress-text">{{branchTagName.alreadyNum}}/{{branchTagName.allNum}}</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -9,14 +9,19 @@ Page({
     pageData: {}
   },
 
+  goHome() {
+    wx.reLaunch({
+      url: '/pages/index/index',
+    })
+  },
   onLoad(options) {
     console.log(options)
     const that = this
     ThirdPage.getUserCard({
-      equipmentNo: options.equipmentNo,
-      source: options.source,
-      userId: options.userId
-    })
+        equipmentNo: options.equipmentNo,
+        source: options.source,
+        userId: options.userId
+      })
       .then(res => {
         that.setData({
           pageData: res.data.businessCard

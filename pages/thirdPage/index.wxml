@@ -2,5 +2,7 @@
 <view class="content-page">
   <view wx:if="{{pageData.businesscard}}" class="page-box">
     <image src="{{pageData.businesscard}}" class="img" show-menu-by-longpress="true" mode="widthFix"></image>
+    
   </view>
+  <button bindtap="goHome" class="home-btn">返回小程序首页</button>
 </view>

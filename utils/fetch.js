@@ -51,14 +51,14 @@ function get(url, data = {}) {
         })
     })
 }
-function post(url, data = {}) {
+function post(url, data = {}, contentType) {
     return new Promise((resolve, reject) => {
         wx.request({
             url: `${API_SERVER}${url}`,
             data: JSON.stringify(getParam(data)),
-            method: 'POSt',
+            method: 'post',
             header: {
-                'content-type': 'application/json',
+                'content-type': contentType,
                 // 'X-Access-Token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NTk2MTM0NjksInVzZXJuYW1lIjoiYWRtaW4ifQ.S-gjiA1kNFfW-iNcVql2IjzVav2BCDwdtrF-izWrs28'
             },
             success: (res) => {

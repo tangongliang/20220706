@@ -1,5 +1,34 @@
 <!--pages/syllable/index.wxml-->
 <view class="content-page">
+  <view bindtap="clickCardBg" wx:if="{{alertCard}}" class="page-alert-bg"></view>
+  <view wx:if="{{alertCard}}" class="alert-card">
+    <view class="card-row-box">
+      <view class="card-column-box">
+        <view class="card-column-title">罗马音</view>
+        <view class="card-column-content">{{romanTone}}</view>
+        <image bindtap="voicePlay" class="voice_play" src="../../images/icon_voice_play.png"></image>
+      </view>
+    </view>
+    <view class="card-row-box">
+      <view class="card-column-box">
+        <view class="card-column-title">平假名</view>
+        <view class="card-column-content">{{hiragana}}</view>
+      </view>
+      <view class="card-column-box">
+        <view class="card-column-title">片假名</view>
+        <view class="card-column-content">{{katakana}}</view>
+      </view>
+    </view>
+    <view wx:if="{{hiraganaCharacter && katakanaCharacter}}" class="card-row-box">
+      <view class="card-column-box">
+        <view class="card-column-title">字源</view>
+        <view class="card-column-content">{{hiraganaCharacter}}</view>
+      </view>
+      <view class="card-column-box">
+        <view class="card-column-title">字源</view>
+        <view class="card-column-content">{{katakanaCharacter}}</view>
+      </view></view>
+  </view>
   <view class="page-menu">
     <view class="menu-item {{activeMenu == 'qingBox' ? 'menu-active' : ''}}" bindtap="toViewClick" data-hash="qingBox">
       <view>清音</view>
@@ -10,37 +39,36 @@
     <view class="menu-item no-border {{activeMenu == 'aoBox' ? 'menu-active' : ''}}" bindtap="toViewClick" data-hash="aoBox">拗音</view>
   </view>
 
-  <scroll-view class="scroll-box" style="height:{{winHeight}}"  scroll-into-view="{{toView}}" scroll-y="true" scroll-with-animation="true">
+  <scroll-view class="scroll-box" style="height:{{winHeight}}" scroll-into-view="{{toView}}" scroll-y scroll-with-animation="true">
     <view id="qingBox">
       <view class="box-header">清音</view>
       <view class="unit-wrapper">
-        <view class="unit-box" wx:for="{{qingArr}}" wx:key="index">
+        <view class="unit-box" bindtap="clickWord" data-word="{{item}}" wx:for="{{unvoiced}}" wx:key="index">
           <view class="box-first">{{item.hiragana}}</view>
           <view class="box-second">{{item.katakana}}</view>
-          <view class="box-third">{{item.roman_tone}}</view>
+          <view class="box-third">{{item.romanTone}}</view>
         </view>
       </view>
     </view>
     <view id="zhuoBox">
       <view class="box-header">浊音</view>
       <view class="unit-wrapper">
-        <view class="unit-box" wx:for="{{zhuoArr}}" wx:key="index">
+        <view class="unit-box" bindtap="clickWord" data-word="{{item}}" wx:for="{{voiced}}" wx:key="index">
           <view class="box-first">{{item.hiragana}}</view>
           <view class="box-second">{{item.katakana}}</view>
-          <view class="box-third">{{item.roman_tone}}</view>
+          <view class="box-third">{{item.romanTone}}</view>
         </view>
       </view>
     </view>
     <view id="aoBox">
       <view class="box-header">拗音</view>
       <view class="unit-wrapper">
-        <view class="unit-box" wx:for="{{aoArr}}" wx:key="index">
+        <view class="unit-box" bindtap="clickWord" data-word="{{item}}" wx:for="{{slang}}" wx:key="index">
           <view class="box-first">{{item.hiragana}}</view>
           <view class="box-second">{{item.katakana}}</view>
-          <view class="box-third">{{item.roman_tone}}</view>
+          <view class="box-third">{{item.romanTone}}</view>
         </view>
       </view>
     </view>
   </scroll-view>
 </view>
-

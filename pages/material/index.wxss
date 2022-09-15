@@ -72,10 +72,11 @@
 
 .content-btn {
   position: absolute;
-  top: 40rpx;
+  top: 36rpx;
   right: 26rpx;
   width: 144rpx;
   height: 56rpx;
+  font-weight: 300;
   line-height: 56rpx;
   text-align: center;
   border-radius: 60rpx;

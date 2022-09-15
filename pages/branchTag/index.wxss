@@ -1,0 +1,46 @@
+.content-page {
+  background: #F5F9FE;
+}
+
+.page-list-box {
+  position: relative;
+  width: 668rpx;
+  display: flex;
+  height: 180rpx;
+  margin: 40rpx auto 0;
+  border-radius: 40rpx;
+  background: #FFFFFF;
+}
+
+
+.box-content-left {
+  flex: 9;
+}
+
+.box-content-left-japanese{
+  height: 90rpx;
+  line-height: 120rpx;
+  padding-left: 32rpx;
+  color: #212B3D;
+  font-size: 28rpx;
+  font-weight: 500;
+}
+
+.box-content-left-chinese{
+  height: 90rpx;
+  padding-left: 32rpx;
+  line-height: 56rpx;
+  color: #37D28D;
+  font-size: 28rpx;
+  font-weight: 500;
+}
+
+.box-content-right {
+  flex: 1;
+}
+
+.voice_play {
+  margin-top: 70rpx;
+  width: 40rpx;
+  height: 40rpx;
+}

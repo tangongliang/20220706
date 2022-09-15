@@ -1,0 +1,12 @@
+<!--pages/material/index.wxml-->
+<view class="content-page">
+  <view class="page-list-box" wx:for="{{words}}" wx:key="index">
+    <view class="box-content-left">
+      <view class="box-content-left-japanese">{{item.japanese + '|' + item.romanTone}}</view>
+      <view class="box-content-left-chinese">{{item.word}}</view>
+    </view>
+    <view class="box-content-right">
+      <image bindtap="voicePlay" -audio-file="{{item.audioFile}}" class="voice_play" src="../../images/icon_voice_play.png"></image>
+    </view>
+  </view>
+</view>

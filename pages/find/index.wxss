@@ -1,0 +1,50 @@
+.page-list-box {
+  width: 668rpx;
+  min-height: 360rpx;
+  margin: 40rpx auto 0;
+}
+
+.courses {
+  white-space: nowrap;
+  flex-wrap: wrap;
+  display: flex;
+  margin-top: 20rpx;
+}
+
+.course-box {
+  display: inline-block;
+  margin-top: 20rpx;
+  margin-right: 20rpx;
+}
+
+.course-box {
+  min-height: 340rpx;
+  width: 30%;
+}
+
+.single-course-img {
+  display: inline-block;
+  border-radius: 24rpx;
+  height: 280rpx;
+  width: 208rpx;
+}
+
+.single-course-title {
+  font-size: 28rpx;
+  font-weight: 500;
+  width: 208rpx;
+  letter-spacing: 0em;
+  color: #212B3D;
+  white-space: pre-line;
+}
+
+.box-content {
+  width: 100%;
+}
+
+.content-title {
+  font-size: 40rpx;
+  font-weight: 500;
+  line-height: 40rpx;
+  color: #212B3D;
+}

@@ -1,0 +1,12 @@
+/* pages/video/index.wxss */
+page{
+  background-color: black;
+}
+.content-page {
+  padding: 0;
+}
+video{
+  width: 100%;
+  height: 428rpx;
+  margin-top: 50%;
+}

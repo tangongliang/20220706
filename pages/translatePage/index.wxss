@@ -1,0 +1,38 @@
+.text-box {
+  height: 400rpx;
+  border-radius: 36rpx;
+  background: #F5F7FF;
+  padding: 20rpx;
+  position: relative;
+  margin-top: 40rpx;
+  margin-bottom: 60rpx;
+}
+
+.text-box textarea {
+  width: 100%;
+  font-size: 36rpx;
+}
+
+.translate-btn {
+  position: absolute;
+  bottom: -44rpx;
+  left: 176rpx;
+  height: 88rpx;
+  width: 300rpx;
+  border-radius: 45rpx;
+  background: linear-gradient(108deg, #9083F5 22%, #6F65EC 90%);
+  color: #fff;
+  font-weight: 500;
+  font-size: 32rpx;
+  line-height: 54rpx;
+}
+
+.result-title {
+  margin-top: 60rpx;
+  font-size: 32rpx;
+  font-weight: 500;
+  letter-spacing: 0em;
+
+  /* 主题文字颜色 */
+  color: #7565EE;
+}

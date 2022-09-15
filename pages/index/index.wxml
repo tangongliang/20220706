@@ -45,6 +45,32 @@
     </view>
   </view>
 
+  <view class="page-basic mt-40">
+    <view class="basic-box" bindtap="toVocabulary">
+      <view class="box-content">
+        <view class="content-left">
+          <view class="content-title">常用词汇</view>
+          <view class="content-sub-title">基础日语</view>
+        </view>
+        <view class="content-right">
+          <image src="../../images/home/home_icon_cihui.png" class="right-img"></image>
+        </view>
+      </view>
+    </view>
+ 
+    <view class="basic-box" bindtap="toTranslate">
+      <view class="box-content">
+        <view class="content-left">
+          <view class="content-title">日语翻译</view>
+          <view class="content-sub-title">准确易懂</view>
+        </view>
+        <view class="content-right">
+          <image src="../../images/home/home_icon_fanyi.png" class="right-img"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+
   <view class="page-title page-class">进阶课程</view>
 
   <view class="content-course">

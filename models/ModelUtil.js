@@ -19,7 +19,7 @@ const ModelUtil = {
     const ret = {}
     if (apiArray.length > 0) {
       apiArray.forEach(api => {
-        ret[api.name] = (param = {}) => ModelUtil.wrapPromise(ModelUtil.METHOD_MAP[api.type || 'get'].bind(null, api.url, param))
+        ret[api.name] = (param = {}) => ModelUtil.wrapPromise(ModelUtil.METHOD_MAP[api.type || 'get'].bind(null, api.url, param, api.contentType || 'application/json'))
       })
     }
     return ret

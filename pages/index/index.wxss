@@ -86,6 +86,10 @@
   font-size: 40rpx;
 }
 
+.mt-40{
+  margin-top: 40rpx;
+}
+
 .page-basic .basic-box {
   width: 236rpx;
   height: 84rpx;

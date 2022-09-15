@@ -1,0 +1,4 @@
+<!--pages/course/index.wxml-->
+<view class="content-page">
+  <web-view src="{{studyUrl}}"></web-view>
+</view>

@@ -21,25 +21,51 @@ page {
   top: 50%;
   margin: -300rpx 0 0 -300rpx;
   width: 600rpx;
-  height: 600rpx;
+  height: 640rpx;
   border-radius: 30px;
   background: #FFFFFF;
   box-shadow: 0px 0px 10px 0px rgba(132, 132, 132, 0.3);
 }
 
 .card-row-box {
-  height: 126rpx;
+  height: 150rpx;
   display: flex;
   text-align: center;
-  margin-top: 40rpx;
+}
+
+.card-row-box:first-of-type {
+  margin-top: 30rpx;
 }
 
 .voice_play {
   position: absolute;
   left: 60%;
-  top: 40rpx;
+  top: 30rpx;
   width: 40rpx;
   height: 40rpx;
+}
+
+.card-btn {
+  width: 460rpx;
+  color: white;
+  height: 80rpx;
+  font-size: 40rpx;
+  line-height: 80rpx;
+  border-radius: 100rpx;
+  background: linear-gradient(103deg, #9083F5 22%, #6F65EC 90%);
+  margin: 40rpx auto;
+  display: flex;
+}
+
+.card-btn-text {
+  width: 300rpx;
+  padding-left: 60rpx;
+}
+
+.card-btn-img {
+  width: 64rpx;
+  margin-top: 10rpx;
+  height: 60rpx;
 }
 
 .card-column-box {

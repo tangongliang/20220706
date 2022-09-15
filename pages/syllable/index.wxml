@@ -6,7 +6,7 @@
       <view class="card-column-box">
         <view class="card-column-title">罗马音</view>
         <view class="card-column-content">{{romanTone}}</view>
-        <image bindtap="voicePlay" class="voice_play" src="../../images/icon_voice_play.png"></image>
+        <image bindtap="voicePlay" class="voice_play" src="../../images/syllable/icon_voice_play.png"></image>
       </view>
     </view>
     <view class="card-row-box">
@@ -27,7 +27,12 @@
       <view class="card-column-box">
         <view class="card-column-title">字源</view>
         <view class="card-column-content">{{katakanaCharacter}}</view>
-      </view></view>
+      </view>
+    </view>
+    <view class="card-btn" bindtap="goStudy">
+      <view class="card-btn-text">深度学习</view>
+      <image class="card-btn-img" src="../../images/syllable/icon_study_hand.png"></image>
+    </view>
   </view>
   <view class="page-menu">
     <view class="menu-item {{activeMenu == 'qingBox' ? 'menu-active' : ''}}" bindtap="toViewClick" data-hash="qingBox">

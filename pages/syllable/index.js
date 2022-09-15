@@ -16,6 +16,7 @@ Page({
 
 
     alertCard: false,
+    id: '',
     romanTone: '',
     hiragana: '',
     hiraganaCharacter: '',
@@ -105,6 +106,7 @@ Page({
     }
     this.setData({
       alertCard: true,
+      id: word.id,
       romanTone: word.romanTone,
       hiragana: word.hiragana,
       hiraganaCharacter: word.hiraganaCharacter,
@@ -120,10 +122,16 @@ Page({
     innerAudioContext.src = this.data.audioFile;
     innerAudioContext.play(); // 播放
   },
+  goStudy: function () {
+    wx.navigateTo({
+      url: '/pages/study/index?id=' + this.data.id,
+    })
+  },
 
   clickCardBg: function () {
     this.setData({
       alertCard: false,
+      id: '',
       romanTone: '',
       hiragana: '',
       hiraganaCharacter: '',
